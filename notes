@@ -1,0 +1,33 @@
+Thoughts, ideas and notes about KeyMo.
+--------------------------------------
+
+- Need to come up with a nifty name for this thing. Possiblities:
+  + Play off "keyboard" and "mouse"
+    * Keymo (The winner)
+    * Kemo
+
+  + Play off "chorded keyboard" and "mouse"
+    * Cheymo
+
+- Needs to be USB HID compliant.
+
+- 2 variations:
+  + Single handed with 8 buttons and a scroll wheel w/ wheel button.
+
+  + Two handed with 16 buttons and a scroll wheel w/ wheel button.
+    * Possibly use an RJ25 telephone cord to connect both units (at least until
+      it becomes completely wireless)
+
+  + In both variations, each hand will have a 7 bit (2^7; 127) combination.
+
+    The 8th button is there to allow the thumb an easier way to press 3 buttons
+    at the same time. I'm thinking that the 8th button would be mounted under a
+    '3 button mount' (i.e. a rigid frame that can hold 3 separate bit switches;
+    most likely shaped like a 'U' with one switch on each side and one at the
+    bottom middle). The 8th button would connect the two side switches that
+    would be difficult for the thumb to push while pushing the middle button at
+    the same time.
+
+    (Man, I need to get some sketches done of what this would look like; or
+    maybe get it designed up in Blender or FreeCAD for 3d viewing; which will
+    happen anyways).
