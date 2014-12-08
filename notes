@@ -1,7 +1,7 @@
 Thoughts, ideas and notes about KeyMo.
 --------------------------------------
 
-- Need to come up with a nifty name for this thing. Possiblities:
+- Need to come up with a nifty name for this thing. Possibilities:
   + Play off "keyboard" and "mouse"
     * Keymo (The winner)
     * Kemo
@@ -12,7 +12,7 @@ Thoughts, ideas and notes about KeyMo.
 - Needs to be USB HID compliant.
 
 - 2 variations:
-  + Single handed with 8 buttons and a scroll wheel w/ wheel button.
+  + Single handed with 7 (maybe 8) buttons and a scroll wheel w/ wheel button.
 
   + Two handed with 16 buttons and a scroll wheel w/ wheel button.
     * Possibly use an RJ25 telephone cord to connect both units (at least until
@@ -31,3 +31,27 @@ Thoughts, ideas and notes about KeyMo.
     (Man, I need to get some sketches done of what this would look like; or
     maybe get it designed up in Blender or FreeCAD for 3d viewing; which will
     happen anyways).
+
+- The following AVR microcontrollers with advantages/disadvantages:
+  + ATtiny88:
+    * Advantages:
+      ! Tiny footprint:
+        > 4mm (.157") for 28pin ATtiny-mmu
+        > 5mm (.197") for 32pin ATtiny-mu
+
+      ! IO pins:
+        > 24 for 28pin ATtiny-mmu
+        > 28 for 32pin ATtiny-mu
+
+      ! Price (from digikey:
+        > $0.72 from arrow.com ATtiny-mmu
+        > $0.42 from newark.com ATtiny-mu
+
+      ! I2C and SPI serial interfaces on both models
+
+    * Disadvantages:
+      ! 8KB flash (means program needs to be small, not neccessarily a minus)
+
+      ! 512B RAM (not sure a minus)
+
+      ! No PWM (although not really a minus for KeyMo)
